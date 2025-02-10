@@ -7,3 +7,28 @@ print(alien_0['points'])
 alien_0 = {'color': 'green', 'points': 5}
 new_points = alien_0['points']
 print(f"You just earned {new_points} points")
+
+
+# Adding X and Y coordinates to alien_0
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+
+alien_0['x_position'] = 0
+alien_0['y_position'] = 25
+print(alien_0)
+# You must use square brackets for the key and assign it a value to add new key pairs to a variable
+
+# Adding Key pairs to an empty dictionary
+fruit_0 = {}
+fruit_0['type'] = 'melon'
+fruit_0['shape'] = 'round'
+# print(fruit_0)
+
+# Changing values in a dictionary
+alien_0 = {'color': 'yellow'}
+print("The alien is " + alien_0['color'] + ".")
+print(f"The alien is {alien_0['color']}.")
+print("The alien is " + str(alien_0['color']) + ".")
+
+alien_0['color'] = 'green'
+print(f"The alien is now {alien_0['color']}.")
